@@ -5,6 +5,7 @@
 
 
 class Calculator:
+
     def add(self, a, b):
         return a + b
 
@@ -16,3 +17,7 @@ class Calculator:
 
     def div(self, a, b):
         return a / b
+
+# clc = Calculator()
+# sum =clc.add(1,1)
+# print(sum)
