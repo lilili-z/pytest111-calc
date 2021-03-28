@@ -17,7 +17,7 @@ from python_code.calc import Calculator
 #     div_datas=datas_div['datas']
 #     div_myid =datas_div['myid']
 
-@allure.feature("测试浏览器")
+@allure.feature("测试计算器")
 class TestCalc:
 
     # def setup(self):
