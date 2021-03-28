@@ -7,7 +7,7 @@ add:
     - [ 0.1,-0.2,0.3 ]
     - [ -1,-2,-3 ]
     - [ "",5,"请输入数字" ]
-  myid:
+  myid: pip install --upgrade pip
     - "int"
     - "float"
     - 'failed'
