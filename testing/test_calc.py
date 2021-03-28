@@ -40,7 +40,7 @@ class TestCalc:
         result = None
         try:
             with allure.step("输入两个值"):
-                result = get_calc.add(get_add_datas[0], get_add_datas[1])
+              result = get_calc.add(get_add_datas[0], get_add_datas[1])
             if isinstance(result, float):
                 result = round(result, 2)
         except Exception as e:
